@@ -8,7 +8,7 @@ begin
   declare Stud_Cursor cursor for select id from student ;
   declare EXIT HANDLER FOR NOT FOUND  SET finished = true;
   
-    open Stud_cursor;
+    open Stud_cursor; 
    set finished = false;
    
    while NOT finished
