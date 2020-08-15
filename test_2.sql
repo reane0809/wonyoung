@@ -9,7 +9,7 @@ begin
   declare EXIT HANDLER FOR NOT FOUND  SET finished = true;
   
     open Stud_cursor; 
-   set finished = false;
+   set finished = false; 
    
    while NOT finished
    do 
