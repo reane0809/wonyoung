@@ -18,5 +18,5 @@ grant INSERT, UPDATE on 학사DB.course_taken to 'professor'@'%';
 
 show grants for professor;
 
-drop user academicManager@localhost;
+drop user academicManager@localhost; 
 drop user 'student'@'%';
