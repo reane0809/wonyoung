@@ -11,7 +11,7 @@ begin
     open Stud_cursor; 
    set finished = false; 
    
-   while NOT finished
+   while NOT finished 
    do 
     fetch Stud_Cursor into vsid;
     
