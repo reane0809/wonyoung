@@ -9,7 +9,7 @@ grant select on 학사DB.student TO 'student'@'%';
 grant select on 학사DB.course_taken TO 'student'@'%';
 grant select on 학사DB.department TO 'student'@'%';
 grant select on 학사DB.instructor TO 'student'@'%';
-
+ 
 show grants for student;
 
 create user 'professor'@'%' identified by 'professor';
