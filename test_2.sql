@@ -21,7 +21,7 @@ begin
     from course_taken
     where sid = vsid 
     )
-    where id = vsid;
+    where id = vsid; 
    end while;
    close Stud_cursor;
    
