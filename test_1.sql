@@ -6,7 +6,7 @@ begin
   declare vcid char(10);
   declare CONTINUE HANDLER for sqlexception SET IsError = 3;
   
-  set IsError = 0;
+  set IsError = 0; 
   select id into vsid
   from student
   where name = sname;
