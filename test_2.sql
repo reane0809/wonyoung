@@ -1,5 +1,5 @@
 delimeter //
-CREATE procedure ComputeGPA()
+CREATE procedure ComputeGPA() 
 begin
 
   declare finished boolean;
