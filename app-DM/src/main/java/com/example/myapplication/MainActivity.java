@@ -22,19 +22,19 @@ public class MainActivity extends AppCompatActivity {
         linearLayout = new LinearLayout(this);
         linearLayout.setOrientation(LinearLayout.VERTICAL);
 
-        textView = new TextView(this);  //textview를 사용하겠다는 곳
-        textView.setText("weather");   //텍스트를 뭐로 쓸껀지
+        textView = new TextView(this);  //textview를 사용할 장소
+        textView.setText("weather");   //텍스트 결정
         textView.setTextSize(60);   //텍스트 사이즈 결정
-        linearLayout.addView(textView); // 위젯들을 레이아웃에 viewGroup에 추가한다.
+        linearLayout.addView(textView); // 위젯들을 레이아웃에 viewGroup에 추가
         LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.MATCH_PARENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
 
-        button = new Button(this);  //버튼을 사용하겠다.
+        button = new Button(this);  //버튼 사용.
         button.setText("O K !");
         button.setTextSize(30);
         button.setLayoutParams(params);
-        linearLayout.addView(button); //버튼을 viewGroup에 추가한다.
+        linearLayout.addView(button); //버튼을 viewGroup에 추가
 
     }
 }
