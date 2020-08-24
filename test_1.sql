@@ -13,7 +13,7 @@ begin
   select vsid;
   select id into vcid
   from course
-  where name = cname; 
+  where name = cname;
   select vcid;
   if vsid is null then
     set IsError = 1;
