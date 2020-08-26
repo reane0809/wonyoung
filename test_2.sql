@@ -19,7 +19,7 @@ begin
     set gpa =  (
     select avvg(grade)
     from course_taken
-    where sid = vsid 
+    where sid = vsid
     )
     where id = vsid; 
    end while;
