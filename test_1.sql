@@ -12,7 +12,7 @@ begin
   where name = sname;
   select vsid;
   select id into vcid
-  from course
+  from course 
   where name = cname;
   select vcid;
   if vsid is null then
