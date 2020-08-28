@@ -4,7 +4,7 @@ show grants for academicManager@localhost;
 
 CREATE USER 'student'@'%' IDENTIFIED BY 'studentpassword' ;
 
-grant select on 학사DB.course TO 'student'@'%';
+grant select on 학사DB.course TO 'student'@'%'; 
 grant select on 학사DB.student TO 'student'@'%'; 
 grant select on 학사DB.course_taken TO 'student'@'%';
 grant select on 학사DB.department TO 'student'@'%';
