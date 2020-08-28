@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
     Button button;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) { 
         super.onCreate(savedInstanceState);
         init(); //초기화 함수
         setContentView(R.layout.activity_main);
