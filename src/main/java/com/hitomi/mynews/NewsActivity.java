@@ -49,7 +49,7 @@ public class NewsActivity extends AppCompatActivity{
 
         String url = "http://newsapi.org/v2/top-headlines?country=kr&apiKey=d601cf623e47481d890990d9e5c350b0";
 
-        StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
+        StringRequest stringRequest = newStringRequest(Request.Method.GET, url,
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
