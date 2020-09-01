@@ -33,7 +33,7 @@ public class NewsActivity extends AppCompatActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+        super.onCreate(savedInstanceState); 
         setContentView(R.layout.activity_news);
 
         mRecyclerView =  findViewById(R.id.my_recycler_view);
