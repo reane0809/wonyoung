@@ -10,7 +10,7 @@ TextView와 Button을 위젯 클래스로 직접 화면에 구성
 public class MainActivity extends AppCompatActivity {
     LinearLayout linearLayout; 
     TextView textView; 
-    Button button;
+    Button button; 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) { 
