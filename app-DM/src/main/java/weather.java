@@ -16,7 +16,7 @@ public class weather {
         Date mDate = new Date(now);
         SimpleDateFormat simpleDate = new SimpleDateFormat("yyyyMMdd");
         System.out.println(simpleDate);
-        String getTime = simpleDate.format(mDate);
+        String getTime = simpleDate.format(mDate); 
 
         StringBuilder urlBuilder = new StringBuilder("http://apis.data.go.kr/1360000/VilageFcstInfoService/getVilageFcst"); /*URL*/
         urlBuilder.append("?" + URLEncoder.encode("serviceKey","UTF-8") + "=jTnzyCPieEVWSxqtlgHjvk37q3aHGkttzcMNDxADJCB7aLPPjhexcI0EIgl%2BMNU1PBFXdkrjpPh79VwopMs7EA%3D%3D"); /*Service Key*/
