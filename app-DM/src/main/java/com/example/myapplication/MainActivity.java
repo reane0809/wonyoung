@@ -3,7 +3,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.LinearLayout;
-import android.widget.TextView; 
+import android.widget.TextView;
 /*
 TextView와 Button을 위젯 클래스로 직접 화면에 구성
  */ 
