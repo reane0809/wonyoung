@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 
 public class weather {
     public static void main(String[] args) throws IOException {
-        long now = System.currentTimeMillis();
+        long now = System.currentTimeMillis(); 
         Date mDate = new Date(now);
         SimpleDateFormat simpleDate = new SimpleDateFormat("yyyyMMdd");
         System.out.println(simpleDate);
