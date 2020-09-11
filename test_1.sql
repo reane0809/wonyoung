@@ -3,7 +3,7 @@ create procedure ADDcourserecord
 (sname char(20), cname char(20), p_grade int, out IsError integer)
 begin
   declare vsid char(10);
-  declare vcid char(10);
+  declare vcid char(10); 
   declare CONTINUE HANDLER for sqlexception SET IsError = 3;
   
   set IsError = 0; 
