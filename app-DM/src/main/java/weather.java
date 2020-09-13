@@ -43,7 +43,7 @@ public class weather {
         }
         StringBuilder sb = new StringBuilder();
         String line;
-        while ((line = rd.readLine()) != null) {
+        while ((line = rd.readLine()) != null) { 
             sb.append(line);
         }
         rd.close();
