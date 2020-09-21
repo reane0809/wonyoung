@@ -9,7 +9,7 @@ begin
   set IsError = 0; 
   select id into vsid 
   from student
-  where name = sname;
+  where name = sname; 
   select vsid;
   select id into vcid
   from course 
