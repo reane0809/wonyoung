@@ -25,7 +25,7 @@ import java.util.List;
 
 public class NewsActivity extends AppCompatActivity{
 
-    private RecyclerView mRecyclerView;
+    private RecyclerView mRecyclerView; 
     private RecyclerView.Adapter mAdapter;
     private RecyclerView.LayoutManager mLayoutManager;
 
