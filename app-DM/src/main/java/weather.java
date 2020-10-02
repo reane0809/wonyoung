@@ -30,7 +30,7 @@ public class weather {
         urlBuilder.append("&" + URLEncoder.encode("ny","UTF-8") + "=" + URLEncoder.encode("1", "UTF-8")); /*예보지점 Y 좌표*/
         URL url = new URL(urlBuilder.toString());
         HttpURLConnection conn = (HttpURLConnection) url.openConnection();  
-
+ 
         System.out.println(url);
         conn.setRequestMethod("GET");
         conn.setRequestProperty("Content-type", "application/json");
