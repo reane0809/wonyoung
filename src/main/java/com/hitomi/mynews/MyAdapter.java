@@ -21,7 +21,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
     public static class MyViewHolder extends RecyclerView.ViewHolder {
         public TextView TextView_title;
-        public TextView TextView_content;
+        public TextView TextView_content; 
         public ImageView ImageView_news;
 
         public MyViewHolder(View v) {
