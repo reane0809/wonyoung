@@ -3,8 +3,8 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLEncoder;
 import java.io.BufferedReader;
-import java.io.IOException; 
-import java.text.SimpleDateFormat; 
+import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
@@ -12,11 +12,11 @@ import java.util.concurrent.TimeUnit;
 
 public class weather {
     public static void main(String[] args) throws IOException {
-        long now = System.currentTimeMillis(); 
+        long now = System.currentTimeMillis();
         Date mDate = new Date(now);
         SimpleDateFormat simpleDate = new SimpleDateFormat("yyyyMMdd");
         System.out.println(simpleDate);
-        String getTime = simpleDate.format(mDate); 
+        String getTime = simpleDate.format(mDate);
 
         StringBuilder urlBuilder = new StringBuilder("http://apis.data.go.kr/1360000/VilageFcstInfoService/getVilageFcst"); /*URL*/
         urlBuilder.append("?" + URLEncoder.encode("serviceKey","UTF-8") + "=jTnzyCPieEVWSxqtlgHjvk37q3aHGkttzcMNDxADJCB7aLPPjhexcI0EIgl%2BMNU1PBFXdkrjpPh79VwopMs7EA%3D%3D"); /*Service Key*/
@@ -29,7 +29,7 @@ public class weather {
         urlBuilder.append("&" + URLEncoder.encode("nx","UTF-8") + "=" + URLEncoder.encode("18", "UTF-8")); /*예보지점의 X 좌표값*/
         urlBuilder.append("&" + URLEncoder.encode("ny","UTF-8") + "=" + URLEncoder.encode("1", "UTF-8")); /*예보지점 Y 좌표*/
         URL url = new URL(urlBuilder.toString());
-        HttpURLConnection conn = (HttpURLConnection) url.openConnection();  
+        HttpURLConnection conn = (HttpURLConnection) url.openConnection();
  
         System.out.println(url);
         conn.setRequestMethod("GET");
