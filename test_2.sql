@@ -2,7 +2,7 @@ delimeter //
 CREATE procedure ComputeGPA()
 begin
 
-  declare finished boolean;
+  declare finished boolean; 
   declare vsid char(10);
   
   declare Stud_Cursor cursor for select id from student ;
