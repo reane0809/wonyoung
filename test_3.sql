@@ -1,4 +1,4 @@
-create user academicManager@localhost identified by 'academicManager';
+create user academicManager@localhost identified by 'academicManager'; 
 grant all on 학사DB.* to academicManager@localhost with grant option;
 show grants for academicManager@localhost;
 
