@@ -1,6 +1,6 @@
 delimeter //
 CREATE procedure ComputeGPA()
-begin
+begin 
 
   declare finished boolean;
   declare vsid char(10);
