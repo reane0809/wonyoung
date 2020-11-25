@@ -1,6 +1,6 @@
 package com.hitomi.mynews;
 
-import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity; 
 
 import android.os.Bundle;
 
