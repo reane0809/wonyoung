@@ -2,7 +2,7 @@ package com.hitomi.mynews;
 
 import java.io.Serializable;
 
-public class NewsData implements Serializable { 
+public class NewsData implements Serializable {
     private String title;
     private String urlToImage;
     private String content;
