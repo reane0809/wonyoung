@@ -1,4 +1,4 @@
-package com.hitomi.mynews;
+package com.hitomi.mynews; 
 
 import java.io.Serializable;
 
