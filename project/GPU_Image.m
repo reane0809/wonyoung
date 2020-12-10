@@ -1,5 +1,6 @@
 % Diverse Gpu image filtering by 이창민, 정원영 for multimedia's matlab project%
 
+
 % Use gpu %
 image = gpuArray(imread('color.jpg'));
 image2 = gpuArray(imread('Autobahnen.jpg'));
