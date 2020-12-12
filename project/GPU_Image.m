@@ -1,4 +1,4 @@
-% Diverse Gpu image filtering by 이창민, 정원영 for multimedia's matlab project%
+% Diverse Gpu image filtering by 이창민, 정원영 for multimedia's matlab project% 
 
 
 % Use gpu %
