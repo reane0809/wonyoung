@@ -28,6 +28,11 @@ classdef app3_exported < matlab.apps.AppBase
         
         % ----------------------------------------------------------------------- %
         %                        C O L O R    F I L T E R                         %
+        %                                                                         %
+        %  colors of HSV example)                                                 %
+        %                         Red : 320 ~ 050                                 %
+        %                         Green : 050 ~ 170                               %
+        %                         Blue : 170 ~ 305                                %
         % ----------------------------------------------------------------------- %
 
         function I = colorfilter(app, image, range)
