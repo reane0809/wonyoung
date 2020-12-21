@@ -1,6 +1,6 @@
 classdef app3_exported < matlab.apps.AppBase
 
-    % Properties that correspond to app components 
+    % Properties that correspond to app components
     properties (Access = public)
         UIFigure                      matlab.ui.Figure
         UploadimageforColorfilterButton  matlab.ui.control.Button
