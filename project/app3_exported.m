@@ -166,7 +166,7 @@ classdef app3_exported < matlab.apps.AppBase
             row_img = imread(fullfile(filepath,filename));
             imshow(row_img, 'parent', app.UIAxes);
             
-            %image enhancement Model Load%
+            % image enhancement Model Load %
             load('trainedVDSR-Epoch-100-ScaleFactors-234.mat');
             
             dimage = gpuArray(readimage(img));
