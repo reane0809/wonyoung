@@ -7,7 +7,7 @@
 #include <sys/wait.h>
 #include <sys/types.h>
 
-struct COMMAND{		//내부명령어를 위한 구조체 선언
+struct COMMAND{		//내부명령어를 위한 구조체 선언 
 	char* name;	//명령어 이름	
 	char* desc;	//명령어 설명
 	bool ( *func)(int argc, char* argv[]); //명령어 동작 함수
