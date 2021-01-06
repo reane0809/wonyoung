@@ -1,4 +1,4 @@
-/*MYSHELL progammed by WonYoung Jeong 32154240 reane0809@gmail.com */ 
+/*MYSHELL progammed by WonYoung Jeong 32154240 reane0809@gmail.com */
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
